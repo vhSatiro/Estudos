@@ -1,0 +1,12 @@
+1º Teste:
+Ao chegar na tela de Contrato, fui direto para Administradora, coloquei como Favorecido e tudo funcionou,
+não removeu a Administradora de Favorecido mesmo após adicionar Proprietário, só adicionou o Proprietário em baixo.
+
+2º Teste:
+Ao chegar na tela de Contrato, preenchi os campos na ordem, ao chegar em Administradora e marcar como Favorecido, ele coloca
+como Favorecido, continuei o fluxo normalmente por todos os campos e nenhum limpou a Administradora de Favorecido.
+
+3º Teste:
+Ao chegar na tela de Contrato, preenchi o fluxo normalmente e no Tipo de Contrato coloquei como "Pré-Contrato", continuei
+preenchendo os campos normalmente, coloquei um Proprietário e ele foi adicionado aos Favorecidos depois da Administradora,
+sem limpar.
