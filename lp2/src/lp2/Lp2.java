@@ -42,9 +42,21 @@ public class Lp2 {
             opConf = sc.nextInt();
         }
     }
-}
 
-//        for (String dado : dados) {
-//            System.out.println("Dados do jogador: " + dado);
-//        }
-//        System.out.println("Quantidade de registros: " + dados.length);
+    public static void getLigas() {
+        Liga l = new Liga();
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> ligas = l.getConfederacoes();
+        int index = 0;
+        System.out.println("Escolha uma opção");
+        int opConf = -1;
+        while (opConf < 0 || opConf > confederacoes.size()) {
+            for (String confederacao : confederacoes) {
+                index++;
+                System.out.println(index + " - " + confederacao);
+            }
+            System.out.println("0 - Voltar");
+            opConf = sc.nextInt();
+        }
+    }
+}
